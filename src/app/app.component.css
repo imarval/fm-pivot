@@ -1,0 +1,145 @@
+/* Charts Style  */
+#fm-pivot-view .fm-axis > .fm-refLine {
+  stroke-dasharray: 4px;
+}
+
+#fm-pivot-view .fm-axis-dividers > .fm-refLine {
+  stroke: none;
+}
+
+#fm-pivot-view .fm-arc path {
+  stroke-width: 1.5px !important;
+}
+
+#fm-pivot-view .fm-barStack path {
+  stroke-width: 1px !important;
+}
+
+/* General colors (e.g., in pie chart) */
+.fm-charts-color-1 {
+  fill: #00a45a !important;
+}
+
+.fm-charts-color-2 {
+  fill: #7e41ff !important;
+}
+
+.fm-charts-color-3 {
+  fill: #df3800 !important;
+}
+
+.fm-charts-color-4 {
+  fill: #ffb800 !important;
+}
+
+.fm-charts-color-5 {
+  fill: #00a45a !important;
+}
+
+.fm-charts-color-6 {
+  fill: #6f5674 !important;
+}
+
+.fm-charts-color-7 {
+  fill: #64343f !important;
+}
+
+/* Changing colors of bars in stacked bar chart */
+#column-chart-container .fm-charts-color-1 {
+  fill: #00a45a !important;
+}
+
+#column-chart-container .fm-charts-color-2 {
+  fill: #df3800 !important;
+}
+
+#column-chart-container .fm-charts-color-3 {
+  fill: none;
+}
+
+div
+  #fm-chart-legend
+  div
+  table
+  tr
+  td
+  #lst1
+  li
+  span#fm-icon-display.fm-ui-element {
+  background-color: #df3800 !important;
+}
+
+/* Headers Style  */
+
+#fm-pivot-view .fm-x.fm-axis.fm-title {
+  font-size: 14px;
+}
+
+/* Hiding text labels from charts  */
+
+text#fm-yAxis-label {
+  visibility: hidden !important;
+}
+
+text#fm-xAxis-label {
+  visibility: hidden !important;
+}
+
+text.fm-x.fm-axis.fm-title {
+  visibility: hidden !important;
+}
+
+/* other */
+
+.demo-box {
+  background-color: #fafafa;
+  position: relative;
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #e9e9e9;
+}
+
+.demo-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.description-blocks {
+  margin: 30px 0 30px 0;
+}
+
+.col-6 {
+  float: left;
+  width: calc(50% - 10px);
+  margin-right: 20px;
+}
+
+.col-6:last-child {
+  margin: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 800px) {
+  .col-6 {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .demo-title.right-text {
+    text-align: left;
+  }
+}
